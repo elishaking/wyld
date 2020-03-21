@@ -3,3 +3,141 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  padding: 2em 10vw;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar li {
+  margin-left: 1em;
+}
+
+img {
+  width: 7em;
+}
+
+.homie {
+  color: peru;
+}
+
+#home {
+  width: 100vw;
+  /* height: 100vh; */
+  background-image: url("../img/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  font-size: 22px;
+  padding: 0.6em 2.8em;
+  color: white;
+  background-color: rgb(145, 89, 66);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  /* border: none; */
+  margin-top: 2em;
+}
+
+.button {
+  margin-top: 5em;
+  margin-left: 10vw;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7em;
+  position: relative;
+}
+
+.h1 {
+  font-size: 4em;
+  color: lightsalmon;
+  margin-left: 10vw;
+  /* width: ; */
+  /* padding: 2em 10vw; */
+}
+
+.k {
+  transform: rotate(-90deg);
+  display: block;
+  background-color: lightsalmon;
+  border-radius: 55px;
+  padding: 1.3em 2.9em;
+  font-size: 1.3em;
+}
+
+.king {
+  /* transform: rotate(-90deg); */
+  /* padding: 1.6em 3.4em; */
+  /* display: block; */
+  /* background-color: lightsalmon; */
+  /* border-radius: 35px; */
+  /* padding: 1em 2em; */
+}
+
+.KING {
+  /* transform: rotate(-90deg); */
+  /* padding: 1.2em 2.4em; */
+  /* background-color: lightsalmon; */
+  /* border-radius: 25px; */
+  display: flex;
+  align-items: center;
+  margin-right: 10vw;
+}
+
+.line {
+  padding: 0.6em;
+  background-color: rgb(145, 89, 66);
+  border-bottom-left-radius: 35px;
+  border-top-left-radius: 35px;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.baseline {
+  /* padding: 0.6em; */
+  /* background-color: rgb(145, 89, 66); */
+  display: flex;
+  margin-top: 11.4em;
+  /* width: 100vw; */
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.line1 {
+  padding: 0.8em;
+  background-color: rgb(145, 89, 66);
+  width: 55%;
+  border-top-left-radius: 25px;
+}
+
+.line2 {
+  padding: 0.8em;
+  background-color: lightsalmon;
+  width: 45%;
+  border-top-right-radius: 25px;
+}
